@@ -130,7 +130,7 @@ class ThirdQuestionScreen extends ConsumerWidget {
 
 Future<String> generateEntrySheet(String prompt) async {
   const apiKey = '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';
-  const url = 'https://api.openai.com/v1/engines/text-davinci-003/completions';
+  const url = 'apikey';
 
   final headers = {
     'Content-Type': 'application/json',
